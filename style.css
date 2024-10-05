@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+
+    background-color: black;
+}
+.container-fluid{
+
+    overflow: hidden;
+    background-color: black;
+}
+.mainheight{
+
+    min-height: 100vh;
+}
+.buttun-1{
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 8px;
+    transition: .3s all linear;
+    width: 100px;
+    height: 50px;
+}
+.buttun-1:hover{
+
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    transition: .3s all linear;
+}
+
+.buttun-2{
+    color: white;
+    background-color: rgb(16, 80, 218);
+    border: none;
+    z-index: 1111111111;
+    transition: .3s all linear;
+    width: 190px;
+    height: 50px;
+}
+.buttun-2:hover{
+    color: white;
+    background-color: rgb(15, 71, 192);
+    border: none;
+    transition: .3s all linear;
+}
+.nav-link{
+    color: gray !important;
+    transition: .3s all linear;
+}
+.nav-link:hover{
+    color: white !important;
+    transition: .3s all linear;
+}
+.one-line{
+
+    display: flex;
+    width: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .3s all linear;
+}
+.two-line{
+
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .3s all linear;
+}
+.line-main:hover .two-line{
+
+    display: flex;
+    width: 30px !important;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .3s all linear;
+}
+.image-first{
+
+    /* display: flex; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url(yingchou-han-IJrIeCs3D4g-unsplash.jpg);
+    background-size: cover;
+}
+.image-first2{
+
+    /* display: flex; */
+    width:160px;
+    height: 100px;
+    background: url(linkedin-sales-solutions-VKJt1EZHlWs-unsplash\ \(2\).jpg);
+    background-size: cover;
+}
+
+.left-second{
+    z-index: 111;
+    background: rgb(84,35,231);
+    background: linear-gradient(90deg, rgba(84,35,231,1) -23%, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+.right-second{
+
+    background: url(thumbnail.e7e2d74e.jpg);
+    background-size: cover;
+}
+.img-con {
+
+    min-height: 400px;
+    background: url();
+    background-size: cover;
+}

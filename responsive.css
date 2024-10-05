@@ -1,0 +1,14 @@
+@media only screen and (max-width: 520px) {
+    
+    .para{
+        font-size: 15px !important;
+        /* border: 3px solid red; */
+        width: 100% !important;
+        text-align: start !important;
+    }
+
+    .right-second{
+
+        background-position: center;
+    }
+}
